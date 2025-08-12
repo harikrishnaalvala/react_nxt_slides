@@ -1,11 +1,21 @@
 {
-  "name": "nxt-slides",
-  "private": true,
-  "version": "1.0.0",
   "engines": {
     { "node": "22.x" },
     "npm": ">=6"
   },
+{
+  "name": "nxt-slides",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  }
+}
   "dependencies": {
     "@testing-library/dom": "8.11.3",
     "@testing-library/jest-dom": "5.11.9",

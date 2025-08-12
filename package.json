@@ -1,6 +1,6 @@
 {
   "name": "nxt-slides",
-  "private": "true",
+  "private": true,
   "version": "1.0.0",
   "engines": {
     { "node": "22.x" },
